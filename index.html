@@ -872,6 +872,7 @@
                     </div>
                 </summary>
                 <div class="prompt-list">
+                    <!-- 既存5件 -->
                     <div class="prompt-item">
                         <div class="prompt-label">依頼者メール返信（角を立てずに確認依頼）</div>
                         <div class="prompt-content">以下の依頼者からのメールに対し、角が立たないように配慮しつつ、必要な追加情報や資料の提出を明確に依頼する返信文案を作成してください。</div>
@@ -897,6 +898,58 @@
                         <div class="prompt-content">以下の相談内容から、労働法上の論点やリスクになりそうな点を整理し、追加でヒアリングすべき質問リストを作成してください。</div>
                         <button class="prompt-copy-btn" onclick="app.copyText(this)">コピー</button>
                     </div>
+
+                    <!-- 追加5件 -->
+                    <div class="prompt-item">
+                        <div class="prompt-label">離職票（会社都合・自己都合）説明文</div>
+                        <div class="prompt-content">以下の状況を前提に、社長に送る説明文を作成してください。
+・会社都合／自己都合の考え方
+・実務で揉めやすいポイント
+・事実確認で必要な資料
+を、結論→理由→注意点→次の一手の順で。断定せず、確認が必要な点は明確にしてください。
+（状況：退職経緯、本人主張、会社の認識、記録の有無、※固有名詞は伏せて）</div>
+                        <button class="prompt-copy-btn" onclick="app.copyText(this)">コピー</button>
+                    </div>
+                    <div class="prompt-item">
+                        <div class="prompt-label">未払い残業の初動対応メモ（社内用）</div>
+                        <div class="prompt-content">以下の相談内容から、未払い残業トラブルの初動対応を整理してください。
+・事実関係（整理）
+・確認すべき資料（勤怠、賃金台帳等）
+・会社がすぐやること
+・社労士が注意喚起すべき点
+を箇条書きで。断定は避け、一般的な実務観点で。
+（相談内容：※固有名詞は伏せて）</div>
+                        <button class="prompt-copy-btn" onclick="app.copyText(this)">コピー</button>
+                    </div>
+                    <div class="prompt-item">
+                        <div class="prompt-label">ハラスメント相談のヒアリング質問（会社向け）</div>
+                        <div class="prompt-content">以下の相談内容をもとに、社内ヒアリングの質問リストを作成してください。
+・被害申告者向け
+・行為者とされる人向け
+・第三者（同僚等）向け
+に分け、感情を刺激しない聞き方で作ってください。
+（相談概要：※固有名詞は伏せて）</div>
+                        <button class="prompt-copy-btn" onclick="app.copyText(this)">コピー</button>
+                    </div>
+                    <div class="prompt-item">
+                        <div class="prompt-label">就業規則改定の社内周知文（角が立たない）</div>
+                        <div class="prompt-content">以下の改定内容を、従業員向け周知文として作成してください。
+目的→変更点→施行日→相談窓口の順で。
+不安を煽らないトーンで、断定表現は避けてください。
+（改定内容、施行日）</div>
+                        <button class="prompt-copy-btn" onclick="app.copyText(this)">コピー</button>
+                    </div>
+                    <div class="prompt-item">
+                        <div class="prompt-label">労基署対応の事前整理（提出物と話す順）</div>
+                        <div class="prompt-content">以下の案件について、労基署対応の準備メモを作成してください。
+・想定される質問
+・提出物候補
+・説明の順番（ストーリー）
+・言わない方がよい表現
+まで含めて整理してください。
+（案件概要：※固有名詞は伏せて）</div>
+                        <button class="prompt-copy-btn" onclick="app.copyText(this)">コピー</button>
+                    </div>
                 </div>
             </details>
 
@@ -913,6 +966,7 @@
                     </div>
                 </summary>
                 <div class="prompt-list">
+                    <!-- 既存5件 -->
                     <div class="prompt-item">
                         <div class="prompt-label">最新の法改正チェック</div>
                         <div class="prompt-content">労働法・社会保険分野における直近の法改正（令和○年以降）の概要を、出典を明記してまとめてください。</div>
@@ -938,6 +992,41 @@
                         <div class="prompt-content">このテーマについて、行政通達や厚生労働省Q&Aを検索するための効果的なキーワードの組み合わせを5パターン提案してください。</div>
                         <button class="prompt-copy-btn" onclick="app.copyText(this)">コピー</button>
                     </div>
+
+                    <!-- 追加5件 -->
+                    <div class="prompt-item">
+                        <div class="prompt-label">助成金の比較表（要件・期限・注意点）</div>
+                        <div class="prompt-content">以下の助成金候補について、受給要件、対象、申請期限、注意点を比較表で整理してください。
+最新情報の出典URLも併記してください。
+（助成金名を複数）</div>
+                        <button class="prompt-copy-btn" onclick="app.copyText(this)">コピー</button>
+                    </div>
+                    <div class="prompt-item">
+                        <div class="prompt-label">法改正まとめ（実務で変わる点だけ）</div>
+                        <div class="prompt-content">労働法・社会保険分野の直近の法改正について、
+社労士実務で「手続き・書類・運用」がどう変わるかに絞って、要点を5つにまとめてください。
+出典URLも付けてください。</div>
+                        <button class="prompt-copy-btn" onclick="app.copyText(this)">コピー</button>
+                    </div>
+                    <div class="prompt-item">
+                        <div class="prompt-label">通達・Q&Aを探す検索式 10パターン</div>
+                        <div class="prompt-content">テーマ「○○」について、厚労省の通達やQ&Aを探すための検索式を10個作ってください。
+Google検索向けに site:mhlw.go.jp を含めた式も混ぜてください。</div>
+                        <button class="prompt-copy-btn" onclick="app.copyText(this)">コピー</button>
+                    </div>
+                    <div class="prompt-item">
+                        <div class="prompt-label">裁判例トレンド（解雇・残業・ハラスメント）</div>
+                        <div class="prompt-content">最近の「○○（例：解雇、未払い残業、パワハラ）」に関する裁判例の判断傾向を、
+実務上の注意点（記録、手順、説明）に落とし込んで整理してください。
+可能なら参考情報のURLも併記してください。</div>
+                        <button class="prompt-copy-btn" onclick="app.copyText(this)">コピー</button>
+                    </div>
+                    <div class="prompt-item">
+                        <div class="prompt-label">業界別 労務KPIとリスク（飲食・建設・製造・医療など）</div>
+                        <div class="prompt-content">○○業界の労務で重要なKPI（離職率、残業時間、有休取得率など）と、
+トラブルになりやすい論点を整理し、改善の打ち手例を3つ提示してください。</div>
+                        <button class="prompt-copy-btn" onclick="app.copyText(this)">コピー</button>
+                    </div>
                 </div>
             </details>
 
@@ -954,6 +1043,7 @@
                     </div>
                 </summary>
                 <div class="prompt-list">
+                    <!-- 既存5件 -->
                     <div class="prompt-item">
                         <div class="prompt-label">就業規則・規程の要点要約</div>
                         <div class="prompt-content">アップロードした就業規則や規程類を読み込み、特に重要となる条項や、従業員への影響が大きい変更点について要約してください。</div>
@@ -977,6 +1067,40 @@
                     <div class="prompt-item">
                         <div class="prompt-label">質問事項案（社長向け／従業員向け）</div>
                         <div class="prompt-content">資料の内容を踏まえ、事実確認のために社長および従業員に対してヒアリングすべき具体的な質問事項を作成してください。</div>
+                        <button class="prompt-copy-btn" onclick="app.copyText(this)">コピー</button>
+                    </div>
+
+                    <!-- 追加5件 -->
+                    <div class="prompt-item">
+                        <div class="prompt-label">就業規則の矛盾・抜け漏れチェック</div>
+                        <div class="prompt-content">アップした就業規則を読み込み、条文間の矛盾、抜け漏れ、運用上揉めやすい表現を抽出してください。
+修正方針も短く提案してください。</div>
+                        <button class="prompt-copy-btn" onclick="app.copyText(this)">コピー</button>
+                    </div>
+                    <div class="prompt-item">
+                        <div class="prompt-label">議事録から労務タスク抽出（期限付き）</div>
+                        <div class="prompt-content">議事録を読み込み、労務上のタスクを抽出してください。
+「タスク」「期限」「必要資料」「担当（会社/社労士）」で表形式にしてください。</div>
+                        <button class="prompt-copy-btn" onclick="app.copyText(this)">コピー</button>
+                    </div>
+                    <div class="prompt-item">
+                        <div class="prompt-label">勤怠・給与資料からリスク兆候を発見</div>
+                        <div class="prompt-content">勤怠・給与資料を読み込み、法令違反やトラブル予兆になりやすいポイントを抽出してください。
+例：残業の偏り、控除の不整合、休憩未取得の疑い等。断定は避け、確認項目として提示してください。
+（※固有名詞は伏せて）</div>
+                        <button class="prompt-copy-btn" onclick="app.copyText(this)">コピー</button>
+                    </div>
+                    <div class="prompt-item">
+                        <div class="prompt-label">ハラスメント事案の時系列＋論点抽出</div>
+                        <div class="prompt-content">ハラスメント関連資料を読み込み、時系列表（出来事＋関係者＋証跡）を作成してください。
+併せて論点（初動、調査、公平性、再発防止）を整理してください。
+（※固有名詞は伏せて）</div>
+                        <button class="prompt-copy-btn" onclick="app.copyText(this)">コピー</button>
+                    </div>
+                    <div class="prompt-item">
+                        <div class="prompt-label">社内通知・説明文の素材抽出（使える定型文）</div>
+                        <div class="prompt-content">資料群から、社内通知・従業員説明で再利用できる定型文や言い回しを抽出し、
+用途別（休職、復職、懲戒、制度変更など）に分類してください。</div>
                         <button class="prompt-copy-btn" onclick="app.copyText(this)">コピー</button>
                     </div>
                 </div>
